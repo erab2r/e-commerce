@@ -76,6 +76,7 @@ header .logo {
     font-size: 3rem;
     color: #333;
     font-weight: bolder;
+    font-family: "Roboto", sans-serif;
 }
 
 header .logo span {
@@ -132,11 +133,12 @@ header .fa-bars {
 .home .content h3 {
     font-size: 6rem;
     color: #333;
+    font-family: "Italianno", cursive;
 }
 
 .home .content span {
     font-size: 3.5rem;
-    color: var(--pink);
+    color:  #24a19c;
     padding: 1rem 0;
     line-height: 1.5rem;
 }
@@ -190,6 +192,7 @@ header .fa-bars {
 .about .row .content h3 {
     font-size: 3rem;
     color: #333;
+    font-family: "Roboto", sans-serif;
 }
 
 .about .row .content p {
@@ -197,6 +200,7 @@ header .fa-bars {
     color: #999;
     padding: 1rem 0;
     line-height: 1.5;
+    font-family: "Roboto", sans-serif;
 }
 .icons-container{
     background: #eee;
@@ -327,6 +331,77 @@ header .fa-bars {
 }
 
 /* products section ends here */
+/* reviews section starts here */
+.review .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center; 
+}
+
+.review .box-container .box {
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    position: relative;
+    background-color: #fff; 
+    transition: transform 0.3s ease; 
+    border: .1rem solid rgba(0, 0, 0, .1);
+}
+
+.review .box-container .box:hover {
+    transform: scale(1.05); 
+}
+
+.review .box-container .box .fa-quote-right {
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    font-size: 6rem;
+    color: #eee;
+}
+
+.review .box-container .box .stars {
+    color: var(--pink);
+    font-size: 2rem;
+}
+
+.review .box-container .box p {
+    color: #999;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.review .box-container .box .user {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.review .box-container .box .user img {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.review .box-container .box .user h3 {
+    font-size: 2rem;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+}
+
+.review .box-container .box .user span {
+    font-size: 1.5rem;
+    color: #999;
+    font-family: "Roboto", sans-serif;
+}
+/* reviews section ends here */
+
 
 
 
@@ -454,4 +529,34 @@ header .fa-bars {
                 font-size: 2rem;
             }
         }
-}
+        .review .box-container {
+            flex-direction: column;
+        }
+    
+        .review .box-container .box {
+            flex: 1 1 100%;
+        }
+    
+        .review .box-container .box .fa-quote-right {
+            font-size: 4rem;
+            bottom: 2rem;
+            right: 2rem;
+        }
+    
+        .review .box-container .box p {
+            font-size: 1.3rem;
+        }
+    
+        .review .box-container .box .stars {
+            font-size: 1.5rem;
+        }
+    
+        .review .box-container .box .user h3 {
+            font-size: 1.8rem;
+        }
+    
+        .review .box-container .box .user span {
+            font-size: 1.3rem;
+        }
+    }
+
