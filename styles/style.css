@@ -401,6 +401,85 @@ header .fa-bars {
     font-family: "Roboto", sans-serif;
 }
 /* reviews section ends here */
+/* contact section starts here */
+
+.contact {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.contact .heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.contact .heading span {
+    color: var(--pink);
+}
+
+.contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .row form {
+    flex: 1 1 45rem;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact .row .image {
+    flex: 1 1 45rem;
+    text-align: center;
+}
+
+.contact .row .image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.contact .row form .box {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.contact .row form .box:focus {
+    border-color: var(--pink);
+    outline: none;
+}
+
+.contact .row form .btn {
+    background-color: var(--pink);
+    color: #fff;
+    padding: 15px;
+    font-size: 1.7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 100%;
+}
+
+.contact .row form .btn:hover {
+    background-color: #e05588;
+}
+.contact .row form textarea {
+    resize: none;
+}
+/*  contact section ends here */
 
 
 
