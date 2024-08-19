@@ -116,6 +116,12 @@ header .fa-bars {
     border: 0.1rem solid rgba(0, 0, 0, 0.3);
     display: none;
 }
+.flex-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
 
 .home {
     display: flex;
@@ -480,6 +486,24 @@ header .fa-bars {
     resize: none;
 }
 /*  contact section ends here */
+/* footer starts here  */
+.footer {
+    padding: 1rem;
+    background-color: var(--pink);
+    min-height: 10vh;
+    color: white;
+    font-size: 1.1rem;
+}
+.btn-subscribe {
+    margin-left: -5px;
+}
+.footer_input {
+    border: none;
+    padding: var(--padding);
+    width: 20rem;
+}
+
+/* footer ends here  */
 
 
 
